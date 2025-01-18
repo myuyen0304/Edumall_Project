@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  edumalldocker2:
+    image: edumalldocker2
+    build:
+      context: .
+      dockerfile: ./Dockerfile

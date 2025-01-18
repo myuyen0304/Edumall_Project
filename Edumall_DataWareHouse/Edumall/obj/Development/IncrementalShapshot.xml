@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Edumall</Database>
+    <Server>UYENTRAN\MYUYEN</Server>
+    <ConnectionString>Data Source=UYENTRAN\MYUYEN;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>q3OB3TMG2+NLUz+wt7z5gGzRlY4=11/20/2024 9:22:28 AM11/20/2024 9:22:28 AM</TimeStamp>
+        <ID>
+          <String>DWH Edumall</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>zVW5e+UVChXj2K2Otpi3ZMOFkHE=11/20/2024 9:26:12 AM11/20/2024 9:26:11 AM</TimeStamp>
+        <ID>
+          <String>DWH Edumall</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vVdEEdr5KHh2pXIlCJcDlmsOMXc=11/20/2024 9:40:55 AM11/20/2024 9:34:11 AM</TimeStamp>
+        <ID>
+          <String>Dim Author</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QxLy982srStnGCCg/OecNNCW7kc=11/20/2024 9:42:49 AM11/20/2024 9:34:11 AM</TimeStamp>
+        <ID>
+          <String>Dim Last Updated</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WJ9LKVMw7g5hERpbZTZqpFVPZEc=11/20/2024 9:44:58 AM11/20/2024 9:34:11 AM</TimeStamp>
+        <ID>
+          <String>Dim Topic</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>FUxHSEr36l3+PGsSlIXjP1WTWZY=11/20/2024 9:52:33 AM11/20/2024 9:34:11 AM1/R3FHAJjEks3BujMNHzScsAXd0=11/20/2024 9:34:12 AM11/20/2024 9:34:11 AM</TimeStamp>
+        <ID>
+          <String>DWH Edumall</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>69A6uWfxXIe46Ngz0rnQaK8UijQ=11/20/2024 9:10:13 AM11/20/2024 9:10:13 AM</TimeStamp>
+      <ID>
+        <String>Edumall</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-11-20T02:52:34.176667Z</LastDeployed>
+</DeploymentSnapshot>
